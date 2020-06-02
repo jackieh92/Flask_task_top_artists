@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<header class="banner">
+    <div class="darken"></div>
+        <div class="header-words">
+            <h1 class="header-text">Top 5 Artists</h1>
+            <button type="button" class="btn btn-danger color-button">Learn More</button>
+        </div>
+</header>
+<div class="section2">
+    <h3 class="section2-head-text">{{welcome_name}}</h3>
+    <p class = "paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum tempore cum facilis
+    dolor soluta eum temporibus vero perspiciatis a obcaecati, deleniti dicta ab atque fugiat 
+    natus eaque inventore dolore sunt?Lorem ipsum.</p>
+    <button type="button" class=" light-button">Learn More</button>
+</div>
+<div class="section3">
+    <h3 class="section3-head-text"><div class = "green"></div>{{number_one}}</h3>
+    <p class = "section3-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum tempore cum facilis
+    dolor soluta eum temporibus vero perspiciatis a obcaecati, deleniti dicta ab atque fugiat 
+    natus eaque inventore dolore sunt?Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    Laborum tempore cum facilis dolor soluta.</p>
+</div>
+<img src="../static/images/photo2.png" class = "image">
+<div class = "tilt"></div>
+<div class="over-tilt"><div class="green"></div><h3>{{number_two}}</h3><p>Lorem ipsum dolor sit amet consectetur, 
+    adipisicing elit. Voluptates quod dolore recusandae animi nulla perferendis natus iste omnis, quaerat suscipit 
+    voluptate quos, id dignissimos quasi quas iusto minima necessitatibus non.Lorem ipsum dolor sit amet consectetur, 
+    adipisicing elit. Voluptates quod dolore recusandae animi nulla perferendis natus iste omnis, quaerat suscipit 
+    voluptate quos, id dignissimos quasi quas iusto minima necessitatibus non.</p></div>
+
+{% endblock content %}

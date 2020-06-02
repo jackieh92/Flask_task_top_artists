@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class = "justify-content-center">Top 5 Artists</h1>
+
+{% for key,item in item_dict.items() %}
+<ul>
+    <li>{{ key }} {{ item }}</li>
+</ul>
+{% endfor %}
+
+
+
+{% endblock content %}
