@@ -67,7 +67,7 @@ p {
 
 .section3{ 
     height:600px;
-    width:1200px;
+    width:800px;
     float:left;
     padding:80px 0px 46px 136px;
     
@@ -115,7 +115,7 @@ p {
 .image { 
     position:absolute;
     left:54%;
-    top:143%;
+    top:148%;
     z-index:1;
     background-image: linear-gradient(to right bottom, rgba(81, 158, 66, 0.493), rgba(56, 190, 168, 0.356));
 
